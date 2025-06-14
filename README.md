@@ -5,7 +5,7 @@ This project demonstrates an end-to-end text style transfer system that converts
 
 ## Project Structure
 
-
+```plaintext
 textstylex/
   ├── data/
   │   ├── modern.txt                  -> Modern English sentences
@@ -19,13 +19,12 @@ textstylex/
   ├── main.py                        -> Training entry point
   └── saved_model/                   -> Saved model weights (~230MB, excluded from GitHub)
 
-
+```
 ## Dataset & Training Setup
 
 
 - Based on: https://github.com/harsh19/Shakespearizing-Modern-English
 - Total examples: ~18,395 sentence pairs
-- Training subset (quick demo): 1,000–5,000 samples
 - Model: t5-small
 - Training time: ~45 min per 5k samples on GPU
 
