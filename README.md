@@ -22,8 +22,6 @@ textstylex/
 ```
 ## Dataset & Training Setup
 
-
-- Based on: https://github.com/harsh19/Shakespearizing-Modern-English
 - Total examples: ~18,395 sentence pairs
 - Model: t5-small
 - Training time: ~45 min per 5k samples on GPU
